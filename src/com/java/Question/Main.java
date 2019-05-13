@@ -13,7 +13,7 @@ public class Main {
 		
 		// 피하기
 		Question3 q3 = new Question3();
-		//q3.Question3_Loop();
+		q3.Question3_Loop();
 		
 		// 하트
 		Question4 q4 = new Question4();
@@ -25,7 +25,18 @@ public class Main {
 		//q5.Question5_Loop();
 		
 		Question6 q6 = new Question6();
-		q6.Question5_Loop();
-	}
+		//q6.Question5_Loop();
 
+		// 십자가 안에 블럭 넣기
+		Question7 q7 = new Question7();
+		//q7.Question7_Loop();
+		
+		// 블럭맞추기
+		Question8 q8 = new Question8();
+		//q8.Question8_Loop();
+		
+	
+		ArrayClass a = new ArrayClass();
+		//a.Array_Print();
+	}
 }
